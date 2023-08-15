@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PS E:\MERN\frontend> git init
+Initialized empty Git repository in E:/MERN/frontend/.git/                                                                          e 
+PS E:\MERN\frontend> git remote add origin https://github.com/Nitighya/React_Forms.git
+PS E:\MERN\frontend> git remote -v
+origin  https://github.com/Nitighya/React_Forms.git (fetch)
+origin  https://github.com/Nitighya/React_Forms.git (push)
+PS E:\MERN\frontend> git commit -m "first commit"
+Author identity unknown
 
-## Available Scripts
+*** Please tell me who you are.
 
-In the project directory, you can run:
+Run
 
-### `npm start`
+  git config --global user.name "Your Name"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+fatal: unable to auto-detect email address (got 'HP@DESKTOP-HKPVFHA.(none)')
+PS E:\MERN\frontend> git config --global user.email "nitighya25@gmail.com"
+PS E:\MERN\frontend> git config --global user.name "Nitighya"                         
+PS E:\MERN\frontend> git commit -m "first commit"
+On branch master
 
-### `npm test`
+Initial commit
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+        public/
+        src/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+nothing added to commit but untracked files present (use "git add" to track)
+PS E:\MERN\frontend> git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+PS E:\MERN\frontend> git commit -m "first commit"
+[master (root-commit) 46bbcc8] first commit
+ 18 files changed, 18078 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/Post/AddData.js
+ create mode 100644 src/Post/Form.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+PS E:\MERN\frontend> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
-### `npm run build`
+    git push --set-upstream origin master
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+PS E:\MERN\frontend> git push --set-upstream origin master
+info: please complete authentication in your browser...
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 173.01 KiB | 5.41 MiB/s, done.
+Total 23 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nitighya/React_Forms.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS E:\MERN\frontend>
